@@ -8,6 +8,9 @@ Source Project: https://github.com/dgageot/demoit#run-demo
 
 ```
 
-docker run --rm --name presentation --net host -v $(pwd)/my_presentation/.:/tmp/presentation rac021/demoit:latest
+docker run --name presentation \
+           --rm                \
+           --net host          \
+           -v $(pwd)/my_presentation/.:/tmp/presentation rac021/demoit:latest
 
 ```
