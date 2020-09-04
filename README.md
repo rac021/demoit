@@ -15,3 +15,6 @@ docker run --name presentation                          \
            -v $(pwd)/my_presentation/.:/tmp/presentation rac021/demoit:latest
 
 ```
+
+
+Go to : http://localhost:8888
